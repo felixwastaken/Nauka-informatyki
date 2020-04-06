@@ -1,44 +1,71 @@
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>
-            DANE OSOBOWE
-        </title>
-    </head>
+  <head>
+    <meta charset="utf-8" />
+    <link type="text/css" rel="stylesheet" href="form.css" />
+    <title>
+      DANE OSOBOWE
+    </title>
+  </head>
 
-    <body>
-    <font size="8">
-    <p>Wprowadz dane:</p>
-    <font size="4"> 
-        <form>
-            <label for="name">Imię</label>
-            <input type="text" id="name" name="name">
-         
-            <label for="surname">Nazwisko</label>
-            <input type="text" id="surname" name="surname">
+  <body>
+    <p class="tytul">Wprowadź dane:</p>
 
-            <label for="date">Data urodzenia</label>
-            <input type="date" id="date" name="date">
+    <form>
+      <label for="name"
+        >Imię:
+        <br />
+      </label>
+      <input type="text" id="name" name="name" class="pole_tekstowe" />
+      <br />
+      <br />
 
-            <label for="children">Liczba dzieci</label>
-            <input type="number" id="children" name="children">
+      <label for="surname"
+        >Nazwisko:
+        <br />
+      </label>
+      <input type="text" id="surname" name="surname" class="pole_tekstowe" />
+      <br />
+      <br />
 
-            <label for="picture">Zdjęcie</label>
-            <input type="file" id="picture" name="picture">
+      <label for="date"
+        >Data urodzenia:
+        <br />
+      </label>
+      <input type="date" id="date" name="date" class="pole_tekstowe" />
+      <br />
+      <br />
 
-         <div>
-            <font size="3" color="gray">
-                <label for="box">Wyrażam zgodę na przetważanie moich danych osobowych.</label>
-                <input type="checkbox" id="box" name="box">
-            </font>
-        </div>
+      <label for="children"
+        >Liczba dzieci:
+        <br />
+      </label>
+      <input
+        type="number"
+        id="children"
+        name="children"
+        class="pole_tekstowe"
+      />
+      <br />
+      <br />
 
-         <button type="reset">Anuluj</button>
-         <button type="submit">Wyślij</button>
-         </form>
+      <label for="picture"
+        >Zdjęcie:
+        <br />
+      </label>
+      <input type="file" id="picture" name="picture" class="przycisk p_maybe" />
+      <br />
+      <br />
 
+      <label for="box"
+        >Wyrażam zgodę na przetważanie moich danych osobowych.</label
+      >
+      <input type="checkbox" id="box" name="box" />
+      <br />
+      <br />
+      <br />
 
-
-            
-    </body>
+      <button type="reset" class="przycisk p_no">Anuluj</button>
+      <button type="submit" class="przycisk p_yes">Wyślij</button>
+    </form>
+  </body>
 </html>

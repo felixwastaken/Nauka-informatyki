@@ -1,0 +1,42 @@
+body {
+  background-color: #303030;
+  color: #ffffff;
+  font: outline;
+  outline-color: black;
+}
+
+.tytul {
+  color: #ffffff;
+  font-size: 200%;
+  font: outline;
+  outline-color: black;
+  outline-width: 3px;
+}
+
+.pole_tekstowe {
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.przycisk {
+  width: 90px;
+  height: 30px;
+  font-size: 20px;
+  color: #ffffff;
+  font: outline;
+  outline-color: black;
+  border: none;
+}
+
+.p_yes {
+  background-color: #4caf50;
+}
+
+.p_no {
+  background-color: #f44336;
+}
+
+.p_maybe {
+  width: 300px;
+}
